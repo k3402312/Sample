@@ -27,7 +27,7 @@ static void do_cat(const char *path){
 	unsigned char buf[BUFFER_SIZE];
 	int n;
 
-	fd =open(path, O_RDONLY);
+	fd = open(path, O_RDONLY);
 	if(fd < 0) die(path);
 	for (;;){
 		n = read(fd, buf, sizeof buf);
