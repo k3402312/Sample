@@ -1,0 +1,731 @@
+execve("/home/ymt/miniconda3/bin/python3", ["python3", "./hello.py"], [/* 21 vars */]) = 0
+brk(NULL)                               = 0x7fffe8b97000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/home/ymt/miniconda3/bin/python3"..., 4096) = 34
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/home/ymt/miniconda3/bin/../lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/../lib/tls/x86_64", 0x7fffefd84650) = -1 ENOENT (No such file or directory)
+open("/home/ymt/miniconda3/bin/../lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/../lib/tls", 0x7fffefd84650) = -1 ENOENT (No such file or directory)
+open("/home/ymt/miniconda3/bin/../lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/../lib/x86_64", 0x7fffefd84650) = -1 ENOENT (No such file or directory)
+open("/home/ymt/miniconda3/bin/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/../lib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=38064, ...}) = 0
+mmap(NULL, 38064, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0226758000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226750000
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f02261e0000
+mprotect(0x7f02261f8000, 2093056, PROT_NONE) = 0
+mmap(0x7f02263f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f02263f7000
+mmap(0x7f02263f9000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f02263f9000
+close(3)                                = 0
+open("/home/ymt/miniconda3/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0225e10000
+mprotect(0x7f0225fd0000, 2097152, PROT_NONE) = 0
+mmap(0x7f02261d0000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f02261d0000
+mmap(0x7f02261d6000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f02261d6000
+close(3)                                = 0
+open("/home/ymt/miniconda3/bin/../lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0225c00000
+mprotect(0x7f0225c03000, 2093056, PROT_NONE) = 0
+mmap(0x7f0225e02000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0225e02000
+close(3)                                = 0
+open("/home/ymt/miniconda3/bin/../lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10656, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226740000
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f02259f0000
+mprotect(0x7f02259f2000, 2093056, PROT_NONE) = 0
+mmap(0x7f0225bf1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f0225bf1000
+close(3)                                = 0
+open("/home/ymt/miniconda3/bin/../lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f02257e0000
+mprotect(0x7f02257e7000, 2093056, PROT_NONE) = 0
+mmap(0x7f02259e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f02259e6000
+close(3)                                = 0
+open("/home/ymt/miniconda3/bin/../lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f02254d0000
+mprotect(0x7f02255d8000, 2093056, PROT_NONE) = 0
+mmap(0x7f02257d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f02257d7000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226730000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226720000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226710000
+arch_prctl(ARCH_SET_FS, 0x7f0226720700) = 0
+mprotect(0x7f02261d0000, 16384, PROT_READ) = 0
+mprotect(0x7f02257d7000, 4096, PROT_READ) = 0
+mprotect(0x7f02263f7000, 4096, PROT_READ) = 0
+mprotect(0x7f02259e6000, 4096, PROT_READ) = 0
+mprotect(0x7f0225bf1000, 4096, PROT_READ) = 0
+mprotect(0x7f0225e02000, 4096, PROT_READ) = 0
+mprotect(0x7f0226cbf000, 12288, PROT_READ) = 0
+mprotect(0x7f0226625000, 4096, PROT_READ) = 0
+munmap(0x7f0226758000, 38064)           = 0
+set_tid_address(0x7f02267209d0)         = 40
+set_robust_list(0x7f02267209e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f02261e5b50, [], SA_RESTORER|SA_SIGINFO, 0x7f02261f1390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f02261e5be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f02261f1390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=8192*1024}) = 0
+brk(NULL)                               = 0x7fffe8b97000
+brk(0x7fffe8bb8000)                     = 0x7fffe8bb8000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2704400, ...}) = 0
+mmap(NULL, 2704400, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f022523b000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f022675b000
+close(3)                                = 0
+futex(0x7f02261d58c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/urandom", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+read(3, "\256\337\343\343\273\353\261\247i\353\242m;s\3549\\\201A]\327\2500\20", 24) = 24
+close(3)                                = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02266d0000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226690000
+munmap(0x7f0226690000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226690000
+fstat(0, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+stat("/home/ymt/bin/python3", 0x7fffefd78bd0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/.local/bin/python3", 0x7fffefd78bd0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/python3", {st_mode=S_IFREG|0775, st_size=3756552, ...}) = 0
+readlink("/home/ymt/miniconda3/bin/python3", "python3.6", 4096) = 9
+readlink("/home/ymt/miniconda3/bin/python3.6", 0x7fffefd6db00, 4096) = -1 EINVAL (Invalid argument)
+open("/home/ymt/miniconda3/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/ymt/miniconda3/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/Modules/Setup", 0x7fffefd78bd0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/lib/python3.6/os.py", 0x7fffefd6eaa0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/lib/python3.6/os.pyc", 0x7fffefd6eaa0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/os.py", {st_mode=S_IFREG|0664, st_size=37526, ...}) = 0
+stat("/home/ymt/miniconda3/bin/pybuilddir.txt", 0x7fffefd78bd0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/lib/python3.6/lib-dynload", 0x7fffefd78bd0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/version.txt", O_RDONLY) = -1 ENOENT (No such file or directory)
+clock_gettime(CLOCK_REALTIME, {1532404704, 190759700}) = 0
+clock_gettime(CLOCK_MONOTONIC, {479, 798036000}) = 0
+brk(0x7fffe8bdb000)                     = 0x7fffe8bdb000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226650000
+munmap(0x7f0226650000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226650000
+sysinfo({uptime=479, loads=[33984, 37856, 38400], totalram=17048506368, freeram=12990472192, sharedram=0, bufferram=0, totalswap=19823587328, freeswap=19820179456, procs=5, totalhigh=142548992, freehigh=278528, mem_unit=1}) = 0
+brk(0x7fffe8bfc000)                     = 0x7fffe8bfc000
+sigaltstack({ss_sp=0x7fffe8bb55a0, ss_flags=0, ss_size=8192}, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+stat("/home/ymt/miniconda3/lib/python36.zip", 0x7fffefd83770) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python36.zip", 0x7fffefd82fa0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(3, /* 210 entries */, 32768)   = 7120
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fffefd83300) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/__init__.abi3.so", 0x7fffefd83300) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/__init__.so", 0x7fffefd83300) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5642, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02265e0000
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5642, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3925, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3925, ...}) = 0
+read(3, "3\r\r\n\205\0305[\n\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 3926) = 3925
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/codecs.py", {st_mode=S_IFREG|0664, st_size=36276, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/codecs.py", {st_mode=S_IFREG|0664, st_size=36276, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/codecs.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=33895, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=33895, ...}) = 0
+read(3, "3\r\r\n\202\0305[\264\215\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0:\0\0\0@\0\0"..., 33896) = 33895
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/encodings", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(3, /* 128 entries */, 32768)   = 4336
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=6269, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6269, ...}) = 0
+read(3, "3\r\r\n\205\0305[\331<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0D\1\0\0@\0\0"..., 6270) = 6269
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1587, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1587, ...}) = 0
+read(3, "3\r\r\n\205\0305[\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 1588) = 1587
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f02261f1390}, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7f02261f1390}, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f02261f1390}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f74cb4654b0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f02261f1390}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], SA_RESTORER, 0x409686}, 8) = 0
+rt_sigaction(SIGINT, {0x7f02269cff50, [], SA_RESTORER, 0x7f02261f1390}, {SIG_DFL, [], SA_RESTORER, 0x7fde0ce254b0}, 8) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1869, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1869, ...}) = 0
+read(3, "3\r\r\n\205\0305[\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 1870) = 1869
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/io.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3382, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3382, ...}) = 0
+read(3, "3\r\r\n\202\0305[\275\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0@\0\0"..., 3383) = 3382
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/abc.py", {st_mode=S_IFREG|0664, st_size=8727, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/abc.py", {st_mode=S_IFREG|0664, st_size=8727, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=7510, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7510, ...}) = 0
+read(3, "3\r\r\n\202\0305[\27\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 7511) = 7510
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_weakrefset.py", {st_mode=S_IFREG|0664, st_size=5705, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_weakrefset.py", {st_mode=S_IFREG|0664, st_size=5705, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=7823, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7823, ...}) = 0
+read(3, "3\r\r\n\203\0305[I\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0"..., 7824) = 7823
+read(3, "", 1)                          = 0
+close(3)                                = 0
+dup(0)                                  = 3
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+dup(1)                                  = 3
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+dup(2)                                  = 3
+close(3)                                = 0
+fstat(2, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 1), ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site.py", {st_mode=S_IFREG|0664, st_size=20317, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site.py", {st_mode=S_IFREG|0664, st_size=20317, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/site.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=15758, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=15758, ...}) = 0
+brk(0x7fffe8c1e000)                     = 0x7fffe8c1e000
+read(3, "3\r\r\n\203\0305[]O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0"..., 15759) = 15758
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02265a0000
+munmap(0x7f02265a0000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02265a0000
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/os.py", {st_mode=S_IFREG|0664, st_size=37526, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/os.py", {st_mode=S_IFREG|0664, st_size=37526, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/os.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=29623, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=29623, ...}) = 0
+read(3, "3\r\r\n\202\0305[\226\222\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0000\0\0\0@\0\0"..., 29624) = 29623
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/stat.py", {st_mode=S_IFREG|0664, st_size=5038, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/stat.py", {st_mode=S_IFREG|0664, st_size=5038, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/stat.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3846, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3846, ...}) = 0
+read(3, "3\r\r\n\203\0305[\256\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 3847) = 3846
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/posixpath.py", {st_mode=S_IFREG|0664, st_size=15414, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/posixpath.py", {st_mode=S_IFREG|0664, st_size=15414, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/posixpath.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=10384, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=10384, ...}) = 0
+read(3, "3\r\r\n\202\0305[6<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0@\0\0"..., 10385) = 10384
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/genericpath.py", {st_mode=S_IFREG|0664, st_size=4756, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/genericpath.py", {st_mode=S_IFREG|0664, st_size=4756, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/genericpath.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3721, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3721, ...}) = 0
+read(3, "3\r\r\n\202\0305[\224\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 3722) = 3721
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26392, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26392, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=28792, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=28792, ...}) = 0
+read(3, "3\r\r\n\202\0305[\30g\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0\0@\0\0"..., 28793) = 28792
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226560000
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3430, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3430, ...}) = 0
+read(3, "3\r\r\n\203\0305[+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3431) = 3430
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226530000
+stat("/home/ymt/miniconda3/bin/pyvenv.cfg", 0x7fffefd83390) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/pyvenv.cfg", 0x7fffefd83390) = -1 ENOENT (No such file or directory)
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/sysconfig.py", {st_mode=S_IFREG|0664, st_size=25193, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/sysconfig.py", {st_mode=S_IFREG|0664, st_size=25193, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=16055, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=16055, ...}) = 0
+read(3, "3\r\r\n\203\0305[ib\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 16056) = 16055
+read(3, "", 1)                          = 0
+close(3)                                = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/ymt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3/bin", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3/bin/python3", {st_mode=S_IFLNK|0777, st_size=9, ...}) = 0
+readlink("/home/ymt/miniconda3/bin/python3", "python3.6", 4096) = 9
+lstat("/home/ymt/miniconda3/bin/python3.6", {st_mode=S_IFREG|0775, st_size=3756552, ...}) = 0
+stat("/home/ymt/miniconda3/bin/Modules/Setup.dist", 0x7fffefd82010) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/bin/Modules/Setup.local", 0x7fffefd82010) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py", {st_mode=S_IFREG|0664, st_size=20816, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py", {st_mode=S_IFREG|0664, st_size=20816, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=17612, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=17612, ...}) = 0
+read(3, "3\r\r\n\345\305M[PQ\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0y\2\0\0@\0\0"..., 17613) = 17612
+read(3, "", 1)                          = 0
+close(3)                                = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/ymt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3/lib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+lstat("/home/ymt/miniconda3/lib/python3.6/config-3.6m-x86_64-linux-gnu", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/.local/lib/python3.6/site-packages", 0x7fffefd83670) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(3, /* 156 entries */, 32768)   = 6520
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/ymt/miniconda3/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=569, ...}) = 0
+ioctl(3, TCGETS, 0x7fffefd82ff0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7fffefd82fb0)        = -1 ENOTTY (Inappropriate ioctl for device)
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1301, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1301, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=975, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=975, ...}) = 0
+read(4, "3\r\r\n\202\0305[\25\5\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 976) = 975
+read(4, "", 1)                          = 0
+close(4)                                = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 569
+brk(0x7fffe8c3f000)                     = 0x7fffe8c3f000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02264f0000
+munmap(0x7f02264f0000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02264f0000
+munmap(0x7f02264f0000, 262144)          = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/types.py", {st_mode=S_IFREG|0664, st_size=8870, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/types.py", {st_mode=S_IFREG|0664, st_size=8870, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/types.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=8196, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=8196, ...}) = 0
+read(4, "3\r\r\n\203\0305[\246\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 8197) = 8196
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/functools.py", {st_mode=S_IFREG|0664, st_size=31142, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/functools.py", {st_mode=S_IFREG|0664, st_size=31142, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/functools.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=23922, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=23922, ...}) = 0
+read(4, "3\r\r\n\202\0305[\246y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0+\0\0\0@\0\0"..., 23923) = 23922
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02264f0000
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fffefd7fbe0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/collections/__init__.abi3.so", 0x7fffefd7fbe0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/collections/__init__.so", 0x7fffefd7fbe0) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=45812, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=45812, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=45811, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=45811, ...}) = 0
+read(4, "3\r\r\n\205\0305[\364\262\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0@\0\0"..., 45812) = 45811
+read(4, "", 1)                          = 0
+close(4)                                = 0
+brk(0x7fffe8c68000)                     = 0x7fffe8c68000
+brk(0x7fffe8c51000)                     = 0x7fffe8c51000
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/operator.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=13908, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13908, ...}) = 0
+read(4, "3\r\r\n\202\0305[o*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0006\0\0\0@\0\0"..., 13909) = 13908
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/keyword.py", {st_mode=S_IFREG|0775, st_size=2211, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/keyword.py", {st_mode=S_IFREG|0775, st_size=2211, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/keyword.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=1760, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=1760, ...}) = 0
+read(4, "3\r\r\n\202\0305[\243\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0!\0\0\0@\0\0"..., 1761) = 1760
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/heapq.py", {st_mode=S_IFREG|0664, st_size=22929, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/heapq.py", {st_mode=S_IFREG|0664, st_size=22929, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/heapq.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=14287, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=14287, ...}) = 0
+read(4, "3\r\r\n\202\0305[\221Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0"..., 14288) = 14287
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/lib-dynload", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(4, /* 67 entries */, 32768)    = 4184
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02264b0000
+munmap(0x7f02264b0000, 262144)          = 0
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02264b0000
+munmap(0x7f02264b0000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f02264b0000
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=25104, ...}) = 0
+futex(0x7f0225e030a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/home/ymt/miniconda3/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\f\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0775, st_size=25104, ...}) = 0
+mmap(NULL, 2116920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0225030000
+mprotect(0x7f0225033000, 2093056, PROT_NONE) = 0
+mmap(0x7f0225232000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7f0225232000
+close(4)                                = 0
+mprotect(0x7f0225232000, 4096, PROT_READ) = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/reprlib.py", {st_mode=S_IFREG|0664, st_size=5336, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/reprlib.py", {st_mode=S_IFREG|0664, st_size=5336, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/reprlib.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=5395, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=5395, ...}) = 0
+read(4, "3\r\r\n\202\0305[\330\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 5396) = 5395
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/weakref.py", {st_mode=S_IFREG|0664, st_size=20466, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/weakref.py", {st_mode=S_IFREG|0664, st_size=20466, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/weakref.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=19138, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=19138, ...}) = 0
+read(4, "3\r\r\n\203\0305[\362O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 19139) = 19138
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/collections", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(4, /* 5 entries */, 32768)     = 144
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections/abc.py", {st_mode=S_IFREG|0664, st_size=68, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/collections/abc.py", {st_mode=S_IFREG|0664, st_size=68, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=178, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=178, ...}) = 0
+read(4, "3\r\r\n\205\0305[D\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 179) = 178
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fffefd80f10) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/__init__.abi3.so", 0x7fffefd80f10) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/__init__.so", 0x7fffefd80f10) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/__init__.py", {st_mode=S_IFREG|0664, st_size=5870, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/__init__.py", {st_mode=S_IFREG|0664, st_size=5870, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/importlib/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=3595, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=3595, ...}) = 0
+read(4, "3\r\r\n\206\0305[\356\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0"..., 3596) = 3595
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/warnings.py", {st_mode=S_IFREG|0664, st_size=18488, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/warnings.py", {st_mode=S_IFREG|0664, st_size=18488, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/warnings.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=13253, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13253, ...}) = 0
+read(4, "3\r\r\n\203\0305[8H\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 13254) = 13253
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/importlib", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(4, /* 9 entries */, 32768)     = 296
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/util.py", {st_mode=S_IFREG|0664, st_size=10883, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/util.py", {st_mode=S_IFREG|0664, st_size=10883, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/importlib/__pycache__/util.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=8895, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=8895, ...}) = 0
+read(4, "3\r\r\n\206\0305[\203*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 8896) = 8895
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/abc.py", {st_mode=S_IFREG|0664, st_size=10782, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/abc.py", {st_mode=S_IFREG|0664, st_size=10782, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/importlib/__pycache__/abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=11288, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=11288, ...}) = 0
+read(4, "3\r\r\n\206\0305[\36*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\"\0\0\0@\0\0"..., 11289) = 11288
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/machinery.py", {st_mode=S_IFREG|0664, st_size=844, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/importlib/machinery.py", {st_mode=S_IFREG|0664, st_size=844, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/importlib/__pycache__/machinery.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=945, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=945, ...}) = 0
+read(4, "3\r\r\n\206\0305[L\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 946) = 945
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/contextlib.py", {st_mode=S_IFREG|0664, st_size=13162, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/contextlib.py", {st_mode=S_IFREG|0664, st_size=13162, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/__pycache__/contextlib.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=11153, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=11153, ...}) = 0
+read(4, "3\r\r\n\202\0305[j3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0@\0\0"..., 11154) = 11153
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0226470000
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+open("/home/ymt/miniconda3/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+getdents(4, /* 156 entries */, 32768)   = 6520
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages/mpl_toolkits/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7fffefd82100) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages/mpl_toolkits/__init__.abi3.so", 0x7fffefd82100) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages/mpl_toolkits/__init__.so", 0x7fffefd82100) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages/mpl_toolkits/__init__.py", 0x7fffefd82100) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages/mpl_toolkits/__init__.pyc", 0x7fffefd82100) = -1 ENOENT (No such file or directory)
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages/mpl_toolkits", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/ymt/miniconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("./hello.py", {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+open("./hello.py", O_RDONLY)            = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+lseek(3, 18446744073709547520, SEEK_SET) = -1 EINVAL (Invalid argument)
+close(3)                                = 0
+stat("./hello.py", {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+readlink("./hello.py", 0x7fffefd73d10, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/mnt/d/GitHub/sample", 4096)    = 21
+lstat("/mnt/d/GitHub/sample/hello.py", {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+open("./hello.py", O_RDONLY)            = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+ioctl(3, TCGETS, 0x7fffefd84cd0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=21, ...}) = 0
+read(3, "print(\"hello world\")\n", 4096) = 21
+lseek(3, 0, SEEK_SET)                   = 0
+brk(0x7fffe8c76000)                     = 0x7fffe8c76000
+read(3, "print(\"hello world\")\n", 4096) = 21
+read(3, "", 4096)                       = 0
+brk(0x7fffe8c6d000)                     = 0x7fffe8c6d000
+brk(0x7fffe8c6b000)                     = 0x7fffe8c6b000
+close(3)                                = 0
+write(1, "hello world\n", 12)           = 12
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f02261f1390}, {0x7f02269cff50, [], SA_RESTORER, 0x7f02261f1390}, 8) = 0
+brk(0x7fffe8c69000)                     = 0x7fffe8c69000
+brk(0x7fffe8c65000)                     = 0x7fffe8c65000
+brk(0x7fffe8c61000)                     = 0x7fffe8c61000
+brk(0x7fffe8c54000)                     = 0x7fffe8c54000
+munmap(0x7f0226470000, 262144)          = 0
+sigaltstack(NULL, {ss_sp=0x7fffe8bb55a0, ss_flags=0, ss_size=8192}) = 0
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
